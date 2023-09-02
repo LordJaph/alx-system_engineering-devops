@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "&(whoiam)" = "guillaume" ] && chown betty hello
+chown --from=gullaume betty hello
